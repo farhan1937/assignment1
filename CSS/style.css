@@ -1,26 +1,17 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .header {
-    
-    background: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1)), url(../img/Banner\ Image.png);
+
+    background: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/Banner\ Image.png);
     width: 1400px;
     border-radius: 15px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
     margin: 40px auto;
-   
-    
-    
-    
-    
-   
-    
-
 }
 
 .box {
@@ -29,10 +20,47 @@
     font-size: 32px;
     font-weight: 400;
     padding: 250px;
-    font-family: sans-serif;
     
+
 }
 
-.text-two{
+.text-two {
     font-size: 80px;
 }
+
+.text-three {
+    color: #F00;
+    text-align: center;
+    font-family: 'Lucida sans'sans-serif;
+    font-size: 70px;
+    margin-top: 100px;
+
+
+
+}
+
+.text-four {
+    color: #F00;
+    text-align: center;
+    font-family:'Lucida Sans', sans-serif;
+    font-size: 15px;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.text-five {
+    color: #070211;
+    text-align: center;
+    
+    font-size: 40px;
+    margin-top: 15px;
+  
+}
+.image-new{
+    background-size: cover;
+    margin-left: 25%;
+    margin-top: 30px;
+    font-family: ;
+}
+
