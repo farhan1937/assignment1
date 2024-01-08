@@ -67,7 +67,7 @@
 }
 
 .image-three {
-    background: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/Vectorrr.png);
+    background: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('../img/Vectorrr.png');
     width: 1400px;
     border-radius: 15px;
     height: 80vh;
@@ -100,17 +100,60 @@
 
 }
 
+.btn {
+    display: inline-block;
+    color: #FFF;
+    margin-left: 120px;
+    margin-top: 40px;
+    border: none;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0));
+   
+    
+
+}
+
 .join span {
     color: #F00;
     text-align: center;
     font-family: sans-serif;
     font-size: 25px;
-}
-.join h3{
-    font-size: 25px;
+
+
 }
 
-.join{
+.join h3 {
+    font-size: 25px;
+
+
+}
+
+.join {
     text-align: center;
-    margin-top: 50px;
+    font-family: sans-serif;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 65px;
+    height: 50vh;
+    border-radius: 10px;
+
+}
+
+.join-two {
+    padding: 80px;
+    gap: 10px
+}
+
+.date {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-join {
+    border-radius: 8px;
+    background: #F00;
+    padding: 10px;
+    color: #FFF;
+    margin-top: 40px;
+    border: none;
+
 }
