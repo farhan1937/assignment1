@@ -20,7 +20,7 @@
     font-size: 32px;
     font-weight: 400;
     padding: 250px;
-    
+
 
 }
 
@@ -31,7 +31,7 @@
 .text-three {
     color: #F00;
     text-align: center;
-    font-family: 'Lucida sans'sans-serif;
+    font-family: 'Lucida sans' sans-serif;
     font-size: 70px;
     margin-top: 100px;
 
@@ -42,7 +42,7 @@
 .text-four {
     color: #F00;
     text-align: center;
-    font-family:'Lucida Sans', sans-serif;
+    font-family: 'Lucida Sans', sans-serif;
     font-size: 15px;
     font-family: 'Lucida Sans', sans-serif;
     margin-top: 30px;
@@ -52,15 +52,65 @@
 .text-five {
     color: #070211;
     text-align: center;
-    
+
     font-size: 40px;
     margin-top: 15px;
-  
+
 }
-.image-new{
+
+.image-new {
     background-size: cover;
     margin-left: 25%;
     margin-top: 30px;
-    font-family: ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
+.image-three {
+    background: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/Vectorrr.png);
+    width: 1400px;
+    border-radius: 15px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    margin: 40px auto;
+}
+
+.image-three h1 {
+    color: #FFF;
+    text-align: left;
+    align-items: center;
+    font-size: 70px;
+    width: 500px;
+    padding-top: 100px;
+    padding-left: 120px;
+    font-family: sans-serif;
+
+}
+
+.first-p {
+    color: rgba(255, 255, 255, 0.452);
+    font-family: Inter;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 120px;
+    width: 700px;
+
+
+}
+
+.join span {
+    color: #F00;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.join h3{
+    font-size: 25px;
+}
+
+.join{
+    text-align: center;
+    margin-top: 50px;
+}
