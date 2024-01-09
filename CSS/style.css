@@ -168,7 +168,7 @@
 }
 
 .nav-text-two {
-    
+
     color: #070211;
     font-family: sans-serif;
     font-size: 60px;
@@ -199,7 +199,7 @@
     height: 300px;
     background-position: center center;
     margin-left: 130px;
-    
+
 
 
 }
@@ -248,7 +248,8 @@
     font-family: sans-serif;
     font-size: 24px;
     margin-left: 60px;
-    
+    padding-top: 40px;
+
 
 }
 
@@ -268,17 +269,159 @@
     margin-top: 10px;
     padding: 10px;
     width: 500px;
-    
+
 }
-.img-text img{
+
+.img-text img {
     margin-left: 60px;
     margin-top: 40px;
     border-radius: 10px;
 
 }
-.img-text img:hover{
-     box-shadow: 0px 0px 10px 15px rgb(221, 219, 219);
-     transition: 0.5s;
-     border-radius: 80px;
+
+.img-text img:hover {
+    box-shadow: 0px 0px 10px 15px rgb(221, 219, 219);
+    transition: 0.5s;
+    border-radius: 80px;
+
+}
+
+.option {
+    text-align: center;
+
+
+
+}
+
+.opt-text-two {
+    color: black;
+    font-size: 40px;
+}
+
+.opt-text-two span {
+    color: #F00;
+}
+
+.opt-para {
+    color: rgba(9, 8, 9, 0.53);
+    width: 1500px;
+    font-family: sans-serif;
+    font-size: 15x;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center center;
+}
+.img-src {
+    position: relative;
+    left: 30px;
+    text-align: right;
+    padding-top: 20px;
+
+}
+.img-one {
+    position: relative;
+    left: 600px;
+    text-align: right;
+    padding-top: 20px;
+
+}
+
+
+
+label input {
+    font-size: 15px;
+    color: #F00;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(254, 254, 254);
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.email button {
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    position: relative;
+    right: 20px;
+    background: #F00;
+   
     
+}
+
+.subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 80px 80px;
+}
+
+.subscribe img {
+    padding: 30px 600px;
+}
+
+.subscribe-text {
+    color: #090909ee;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+
+.subscribe-para {
+    color: rgba(7, 7, 7, 0.452);
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+    width: 700px;
+    padding-left: 300px;
+    padding-bottom: 20px;
+    
+
+}
+.email{
+    margin-left: 500px;
+    padding-bottom: 50px;
+   
+ 
+}  
+
+.footer{
+    color: #FFF;
+    height: 400px;
+    margin: auto;
+    width: 1300;
+    display: flex;
+    background-color: #070211;
+
+}
+.icon-text{
+    margin-left: 500px;
+  
+}
+
+.call{
+   
+    padding: 10px;
+    margin-left: 400px;
+    text-align: center;
+    height: 50px;
+    width: 500px;
+}
+ .call h4 {
+    padding-right: 5px;
+ }
+ .icon{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    height: 60px;
+    width: 1100px;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}
+ .icon-header{
+        background-position: bottom left;
 }
