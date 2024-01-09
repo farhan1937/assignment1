@@ -388,40 +388,42 @@ label input {
  
 }  
 
-.footer{
-    color: #FFF;
-    height: 400px;
-    margin: auto;
-    width: 1300;
-    display: flex;
+footer{
     background-color: #070211;
-
-}
-.icon-text{
-    margin-left: 500px;
-  
+    text-align: center;
+    padding: 60px 100px;
 }
 
-.call{
-   
+footer h4, label{
+    
+    color: #FFF;
+    font-size: 20px;
+    max-width: 400px;
+    font-weight: 300;
+}
+
+.footer, 
+.bottom-info{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 40px 0px;
+    margin-right: 10px;
+}
+.footer-text label{
+    gap:10px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+    /* margin-left: 10px; */
+}
+.icons{
+    padding: 30px 5px;
+
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.icons img{
     padding: 10px;
-    margin-left: 400px;
-    text-align: center;
-    height: 50px;
-    width: 500px;
 }
- .call h4 {
-    padding-right: 5px;
- }
- .icon{
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-    height: 60px;
-    width: 1100px;
-    border-top: 2px solid #FFF;
-    border-bottom: 2px solid #FFF;
-}
- .icon-header{
-        background-position: bottom left;
-}
+
